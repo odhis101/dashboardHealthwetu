@@ -14,7 +14,7 @@ const Navbar = () => {
               <li>Add new ambulance </li>
               <li>Trips made </li>
               <li>Revenue </li>
-              <li>accuount </li>
+              <li>Accuount </li>
             </ul>
           </div>
         </div>

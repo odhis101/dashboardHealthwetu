@@ -13,19 +13,24 @@ import Ambulance from '../../assets/ambulance.png';
             <div className ='details_container'> 
           <div className ='details'> 
           <p > Paramedics</p>
-          <p> 2</p>
+          <p className ='data'> 2</p>
           
           </div>
           <div className ='details'> 
-          <p > Paramedics</p>
-          <p> 2</p>
+          <p > Driver</p>
+          <p className ='data'> 1</p>
+          
+          </div>
+            <div className ='details'> 
+          <p > Trips</p>
+          <p className ='data'> 14</p>
           
           </div>
           <div className ='details'> 
-          <p > Paramedics</p>
-          <p> 2</p>
-          
+          <p > Revenue</p>
+          <p className ='data'> 42000</p>
           </div>
+          
           
           
           </div>

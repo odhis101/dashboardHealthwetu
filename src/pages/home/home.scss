@@ -1,10 +1,68 @@
-.home
-.title{
-text-align: center;
-border-bottom: 10px solid #ec0000;
-border-width: 2px;
-width: 200px;
-text-transform: capitalize;
-font-size: 20px;
-font-weight: bold;
+.Welcome{
+  font-size: 35px;
+ 
+}
+.Welcome_details
+{
+    color:grey;
+    padding-top:-1000px ;
+    u{
+        padding-bottom: 10px;
+        text-decoration: underline;
+        -webkit-text-decoration-color: red;
+        text-decoration-color: red;
+    }
+  }
+.homeContainer{
+ 
+    .contents{
+        padding-left: 10%;
+        padding-right: 10%;
+        
+     .title{
+        text-align: center;
+        font-size: 22px;
+       
+        u{
+            padding-bottom: 10px;
+            text-decoration: underline;
+            -webkit-text-decoration-color: red;
+            text-decoration-color: red;
+        }
+     }
+        .ambulances{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            .add{
+               
+                height: auto;
+                border-radius: 10%;
+                margin-left: 2%;
+                margin-top: 2%;
+                display: flex;
+                align-items: center;
+            
+            }
+           
+        }
+     
+    }
+
+}
+.details{
+    .trips{
+        font-size: 20px;
+        
+        b{
+            color: red;
+
+        }
+
+    }
+    .seeMore{
+        text-decoration: none;
+        color: inherit;
+        cursor: pointer;
+    }
 }
