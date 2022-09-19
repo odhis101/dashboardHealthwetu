@@ -11,10 +11,12 @@ import { AiFillPlusCircle } from "react-icons/ai";
     <div className ='home'>   
     <NavBar />
     <p className ='Welcome'>Welcome Amref Ambulances Admin portal</p>
-    <p className ='Welcome_details'><u> Joined</u> 2022</p>
+    <p className ='Welcome_details'> Joined 2022</p>
+    <div className ='underline'/>
     <div className ='homeContainer'>
       <div className= 'contents'> 
         <p className='title'>  <u>All</u> Ambulances</p>
+        
         <div className = 'ambulances'>
           <Module />
           <Module />

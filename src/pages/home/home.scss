@@ -2,18 +2,17 @@
   font-size: 35px;
  
 }
+
 .Welcome_details
 {
     color:grey;
     padding-top:-1000px ;
-    u{
-        padding-bottom: 10px;
-        text-decoration: underline;
-        -webkit-text-decoration-color: red;
-        text-decoration-color: red;
-    }
+   
   }
 .homeContainer{
+    border: 1px solid #e0e0e0;
+    padding-bottom: 1%;
+    padding-bottom: 1%;
  
     .contents{
         padding-left: 10%;
@@ -31,6 +30,7 @@
         }
      }
         .ambulances{
+           
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
