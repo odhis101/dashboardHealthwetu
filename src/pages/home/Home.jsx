@@ -10,7 +10,7 @@ import { AiFillPlusCircle } from "react-icons/ai";
   return (
     <div className ='home'>   
     <NavBar />
-    <p className ='Welcome'>Welcome Amref Ambulances</p>
+    <p className ='Welcome'>Welcome Amref Ambulances Admin portal</p>
     <p className ='Welcome_details'><u> Joined</u> 2022</p>
     <div className ='homeContainer'>
       <div className= 'contents'> 
@@ -21,7 +21,8 @@ import { AiFillPlusCircle } from "react-icons/ai";
           <Module />
           <Module />
           <div className='add'>
-          <AiFillPlusCircle  color="red" fontSize="2.5em" />
+          <AiFillPlusCircle  color="red" fontSize="2.5em" type = 'submit' onClick = {console.log('lol')} />
+       
           </div>
           
           

@@ -1,9 +1,10 @@
 
-import './ambulance_module.scss'
+import './trips.scss'
 import Ambulance from '../../assets/ambulance.png'; 
- const Ambulance_module = (props) => {
+ const Ambulance_trips = () => {
   return (
-    <div className ='Ambulance_module'> 
+    <div className ='Ambulance_module'>
+        
      <div className ='ambulance_container'>
           <img src={Ambulance} alt="Logo" className='ambulance_image' />
           <div className='description'> Nissan Altima
@@ -12,23 +13,23 @@ import Ambulance from '../../assets/ambulance.png';
             </div>
             <div className ='details_container'> 
           <div className ='details'> 
-          <p > Paramedics</p>
+          <p > Pickup Location</p>
           <p className ='data'> 2</p>
           
           </div>
           <div className ='details'> 
-          <p > Driver</p>
+          <p > Drop Off </p>
           <p className ='data'> 1</p>
           
           </div>
             <div className ='details'> 
-          <p > Trips</p>
-          <p className ='data'> 14</p>
+            <p > Date </p>
+          <p className ='data'> 14th august</p>
           
           </div>
           <div className ='details'> 
           <p > Revenue</p>
-          <p className ='data'> 42,000 ksh</p>
+          <p className ='revenue'> <b> 42,000 </b> ksh</p>
           </div>
           
           
@@ -40,4 +41,4 @@ import Ambulance from '../../assets/ambulance.png';
     
   )
 }
-export default Ambulance_module
+export default Ambulance_trips

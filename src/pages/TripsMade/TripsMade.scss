@@ -1,0 +1,39 @@
+.title{
+    font-size:42px;
+    margin-bottom: 1rem;
+ 
+}
+.tripsMade{
+    font-size: 19px;
+    padding-bottom: 1%;
+}
+.time{
+    padding-left: 6%;
+}
+.ambulances{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    .time{
+        display: inline;
+        color: red;
+    }
+ 
+}
+.RatingText{
+    text-align: center;
+}
+.RatingContainer{
+    margin-right: auto;
+    margin-left: auto;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    o{
+        color: rgb(255, 0, 0);
+        font-size:12px;
+    }
+
+  
+}
